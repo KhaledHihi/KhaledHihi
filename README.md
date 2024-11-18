@@ -1,3 +1,4 @@
+[![<khhihi>'s 42 stats](https://badge.mediaplus.ma/binary/<khhihi>)](https://github.com/oakoudad/badge42)
 # 💫 About Me:
 👋 Hi, I’m Khaled Hihi<br>💻 Currently learning C and working on projects in C and Shell scripting<br>🚀 Skilled in C, C++, and Python<br>🌱 Always learning and building<br>📸 Find me on Instagram : https://www.instagram.com/khaled.hihi/
 
