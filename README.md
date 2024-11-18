@@ -1,7 +1,6 @@
-<a href="https://github.com/oakoudad/badge42"><img src="https://badge.mediaplus.ma/greenbinary/khhihi" alt="khhihi's 42 stats" /></a>
 # 💫 About Me:
 👋 Hi, I’m Khaled Hihi<br>💻 Currently learning C and working on projects in C and Shell scripting<br>🚀 Skilled in C, C++, and Python<br>🌱 Always learning and building<br>📸 Find me on Instagram : https://www.instagram.com/khaled.hihi/
-
+<a href="https://github.com/oakoudad/badge42"><img src="https://badge.mediaplus.ma/greenbinary/khhihi" alt="khhihi's 42 stats" /></a>
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/Khaled.Hihi) 
