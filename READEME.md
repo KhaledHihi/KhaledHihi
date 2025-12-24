@@ -1,24 +1,4 @@
-Welcome to my GitHub profile. Here’s a little about me:
-
-## 🧑‍💻 About Me
-- 💻 I’m a passionate software developer with a love for creating innovative solutions.
-- 🌱 I’m constantly learning and exploring new technologies to improve my skills.
-- 🤝 I enjoy collaborating with others and contributing to open-source projects.
-
-## 🔧 Technologies & Tools
-- **Languages:** C, C++, Python
-
-## 📈 GitHub Stats
-![Khaled's GitHub stats](https://github-readme-stats.vercel.app/api?username=khaledhihi&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=khaledhihi&layout=compact&theme=radical)
-
-## 🎮 Hobbies & Interests
-- 🧩 Problem solving and tackling challenging coding problems.
-
-Thanks for stopping by! Feel free to connect with me on social media or check out my projects. Let’s build something amazing together!
-
-<div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="icon" width="69" height="69" /><img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="69" height="69" /><img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="69" height="69" /></div>
-
+<h2 align="left">Hi 👋! My name is khaled</h2>
 
 ###
 
@@ -29,7 +9,6 @@ Thanks for stopping by! Feel free to connect with me on social media or check ou
 
 ###
 
-<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
 
 ###
 
