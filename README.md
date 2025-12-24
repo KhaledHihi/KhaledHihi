@@ -16,6 +16,5 @@ Thanks for stopping by! Feel free to connect with me on social media or check ou
 <div style="display: flex; align-items: flex-start;">
   <img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="icon" width="69" height="69" />
   <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="69" height="69" />
-  <img src="https://cdnl.iconscout.com/lottie/premium/preview-watermark/c-programming-language-animation-gif-download-5332663.mp4" alt="icon" width="69" height="69" />
   <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="69" height="69" />
 </div>
