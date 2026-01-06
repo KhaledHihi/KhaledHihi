@@ -119,8 +119,15 @@ const highlightNav = () => {
 
 window.addEventListener('scroll', highlightNav);
 
-// Parallax effect for hero section
+// Combined scroll handler for better performance
+let lastParallaxTime = 0;
+const parallaxDelay = 10;
+
 window.addEventListener('scroll', () => {
+    const now = Date.now();
+    if (now - lastParallaxTime < parallaxDelay) return;
+    lastParallaxTime = now;
+    
     const scrolled = window.pageYOffset;
     const heroContent = document.querySelector('.hero-content');
     if (heroContent) {
