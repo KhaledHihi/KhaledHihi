@@ -440,6 +440,34 @@ section {
     }
 }
 
+/* Cursor Trail Effect */
+.cursor-trail {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: radial-gradient(circle, rgba(99, 102, 241, 0.5) 0%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+    animation: trail-fade 0.5s ease-out forwards;
+    z-index: 9999;
+}
+
+@keyframes trail-fade {
+    to {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+/* Active Nav Link */
+.nav-link.active {
+    color: var(--text-primary);
+}
+
+.nav-link.active::after {
+    width: 100%;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .hamburger {

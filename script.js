@@ -38,7 +38,14 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // Navbar background on scroll
+let lastScrollTime = 0;
+const scrollDelay = 10; // Throttle scroll events
+
 window.addEventListener('scroll', () => {
+    const now = Date.now();
+    if (now - lastScrollTime < scrollDelay) return;
+    lastScrollTime = now;
+    
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 100) {
         navbar.style.background = 'rgba(15, 23, 42, 0.98)';
@@ -123,7 +130,14 @@ window.addEventListener('scroll', () => {
 });
 
 // Add cursor trail effect (optional)
+let lastTrailTime = 0;
+const trailDelay = 50; // Throttle to create trail every 50ms
+
 document.addEventListener('mousemove', (e) => {
+    const now = Date.now();
+    if (now - lastTrailTime < trailDelay) return;
+    lastTrailTime = now;
+    
     const trail = document.createElement('div');
     trail.className = 'cursor-trail';
     trail.style.left = e.pageX + 'px';
@@ -134,36 +148,5 @@ document.addEventListener('mousemove', (e) => {
         trail.remove();
     }, 500);
 });
-
-// Add some CSS for cursor trail
-const style = document.createElement('style');
-style.textContent = `
-    .cursor-trail {
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        background: radial-gradient(circle, rgba(99, 102, 241, 0.5) 0%, transparent 70%);
-        border-radius: 50%;
-        pointer-events: none;
-        animation: trail-fade 0.5s ease-out forwards;
-        z-index: 9999;
-    }
-    
-    @keyframes trail-fade {
-        to {
-            transform: scale(2);
-            opacity: 0;
-        }
-    }
-    
-    .nav-link.active {
-        color: var(--text-primary);
-    }
-    
-    .nav-link.active::after {
-        width: 100%;
-    }
-`;
-document.head.appendChild(style);
 
 console.log('Portfolio loaded successfully! 🚀');
