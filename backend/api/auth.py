@@ -30,7 +30,7 @@ def register():
         return jsonify({'error': 'Invalid email address'}), 400
     
     if not validate_password(password):
-        return jsonify({'error': 'Password must be at least 8 characters'}), 400
+        return jsonify({'error': 'Password must be at least 8 characters with uppercase, lowercase, and numbers'}), 400
     
     if role not in ['buyer', 'seller']:
         return jsonify({'error': 'Invalid role'}), 400
