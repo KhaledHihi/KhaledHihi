@@ -246,15 +246,19 @@ function showProductModal(productId) {
 // Add to cart function
 function addToCart(productId) {
     const product = products.find(p => p.id === productId);
-    alert(`Added "${product.title}" to your cart!`);
-    closeModal();
+    if (product) {
+        alert(`Added "${product.title}" to your cart!`);
+        closeModal();
+    }
 }
 
 // Buy now function
 function buyNow(productId) {
     const product = products.find(p => p.id === productId);
-    alert(`Proceeding to checkout for "${product.title}"`);
-    closeModal();
+    if (product) {
+        alert(`Proceeding to checkout for "${product.title}"`);
+        closeModal();
+    }
 }
 
 // Close modal
