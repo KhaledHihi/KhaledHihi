@@ -23,6 +23,19 @@ body {
     overflow-x: hidden;
 }
 
+/* Screen reader only class for accessibility */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -91,10 +104,20 @@ body {
     color: var(--secondary-color);
 }
 
+/* Keyboard focus styles */
+.nav-menu a:focus-visible {
+    outline: 2px solid var(--secondary-color);
+    outline-offset: 4px;
+    border-radius: 2px;
+}
+
 .hamburger {
     display: none;
     flex-direction: column;
     cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0.5rem;
 }
 
 .hamburger span {
@@ -420,7 +443,8 @@ section {
 
 .form-group input:focus,
 .form-group textarea:focus {
-    outline: none;
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
     border-color: var(--primary-color);
 }
 
@@ -489,6 +513,21 @@ section {
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    
+    html {
+        scroll-behavior: auto !important;
     }
 }
 
