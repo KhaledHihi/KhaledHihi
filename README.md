@@ -13,23 +13,8 @@ Welcome to my GitHub profile. Here’s a little about me:
 
 Thanks for stopping by! Feel free to connect with me on social media or check out my projects. Let’s build something amazing together!
 
-<div align="center">
-  <style>
-    .float-icon {
-      animation: float 3s ease-in-out infinite;
-      display: inline-block;
-    }
-    .float-icon:nth-child(2) { animation-delay: 0.3s; }
-    .float-icon:nth-child(3) { animation-delay: 0.6s; }
-    .float-icon:nth-child(4) { animation-delay: 0.9s; }
-    @keyframes float {
-      0%   { transform: translateY(0px); }
-      50%  { transform: translateY(-8px); }
-      100% { transform: translateY(0px); }
-    }
-  </style>
-  <img class="float-icon" src="https://skillicons.dev/icons?i=c" width="60" height="60" />
-  <img class="float-icon" src="https://skillicons.dev/icons?i=cpp" width="60" height="60" />
-  <img class="float-icon" src="https://skillicons.dev/icons?i=python" width="60" height="60" />
-  <img class="float-icon" src="https://skillicons.dev/icons?i=github" width="60" height="60" />
+<div style="display: flex; align-items: flex-start;">
+  <img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="icon" width="69" height="69" />
+  <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="69" height="69" />
+  <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="69" height="69" />
 </div>
